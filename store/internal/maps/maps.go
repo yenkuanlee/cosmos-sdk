@@ -3,11 +3,11 @@ package maps
 import (
 	"encoding/binary"
 
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	tmcrypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
+	"github.com/yenkuanlee/tendermint/crypto/merkle"
+	"github.com/yenkuanlee/tendermint/crypto/tmhash"
+	tmcrypto "github.com/yenkuanlee/tendermint/proto/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/yenkuanlee/cosmos-sdk/types/kv"
 )
 
 // merkleMap defines a merkle-ized tree from a map. Leave values are treated as

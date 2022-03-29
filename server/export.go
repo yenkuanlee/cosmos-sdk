@@ -8,13 +8,13 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	tmtypes "github.com/tendermint/tendermint/types"
+	tmjson "github.com/yenkuanlee/tendermint/libs/json"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
+	tmtypes "github.com/yenkuanlee/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/client/flags"
+	"github.com/yenkuanlee/cosmos-sdk/server/types"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
 )
 
 const (

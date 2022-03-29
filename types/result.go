@@ -7,11 +7,11 @@ import (
 	"strings"
 
 	"github.com/gogo/protobuf/proto"
-	abci "github.com/tendermint/tendermint/abci/types"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	abci "github.com/yenkuanlee/tendermint/abci/types"
+	ctypes "github.com/yenkuanlee/tendermint/rpc/core/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	codectypes "github.com/yenkuanlee/cosmos-sdk/codec/types"
 )
 
 var cdc = codec.NewLegacyAmino()
