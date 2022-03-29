@@ -12,21 +12,21 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	tmtypes "github.com/tendermint/tendermint/types"
+	tmos "github.com/yenkuanlee/tendermint/libs/os"
+	tmtypes "github.com/yenkuanlee/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/server"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/version"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	"github.com/yenkuanlee/cosmos-sdk/client/flags"
+	"github.com/yenkuanlee/cosmos-sdk/client/tx"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keyring"
+	"github.com/yenkuanlee/cosmos-sdk/server"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/types/module"
+	"github.com/yenkuanlee/cosmos-sdk/version"
+	authclient "github.com/yenkuanlee/cosmos-sdk/x/auth/client"
+	"github.com/yenkuanlee/cosmos-sdk/x/genutil"
+	"github.com/yenkuanlee/cosmos-sdk/x/genutil/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/staking/client/cli"
 )
 
 // GenTxCmd builds the application's gentx command.
@@ -138,13 +138,13 @@ $ %s gentx my-key-name 1000000stake --home=/path/to/home/dir --keyring-backend=o
 			// and `create-validator` commands:
 			// - `gentx` expects amount as an arg,
 			// - `create-validator` expects amount as a required flag.
-			// ref: https://github.com/cosmos/cosmos-sdk/issues/8251
+			// ref: https://github.com/yenkuanlee/cosmos-sdk/issues/8251
 			// Since gentx doesn't set the amount flag (which `create-validator`
 			// reads from), we copy the amount arg into the valCfg directly.
 			//
 			// Ideally, the `create-validator` command should take a validator
 			// config file instead of so many flags.
-			// ref: https://github.com/cosmos/cosmos-sdk/issues/8177
+			// ref: https://github.com/yenkuanlee/cosmos-sdk/issues/8177
 			createValCfg.Amount = amount
 
 			// create a 'create-validator' message

@@ -11,17 +11,17 @@ import (
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrpcserver "github.com/tendermint/tendermint/rpc/jsonrpc/server"
+	"github.com/yenkuanlee/tendermint/libs/log"
+	tmrpcserver "github.com/yenkuanlee/tendermint/rpc/jsonrpc/server"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/rest"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	"github.com/yenkuanlee/cosmos-sdk/server/config"
+	"github.com/yenkuanlee/cosmos-sdk/telemetry"
+	grpctypes "github.com/yenkuanlee/cosmos-sdk/types/grpc"
+	"github.com/yenkuanlee/cosmos-sdk/types/rest"
 
 	// unnamed import of statik for swagger UI support
-	_ "github.com/cosmos/cosmos-sdk/client/docs/statik"
+	_ "github.com/yenkuanlee/cosmos-sdk/client/docs/statik"
 )
 
 // Server defines the server's API interface.

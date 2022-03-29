@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	ctypes "github.com/yenkuanlee/tendermint/rpc/core/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	codectypes "github.com/yenkuanlee/cosmos-sdk/codec/types"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
 )
 
 // QueryTxsByEvents performs a search for transactions for a given set of events
@@ -43,7 +43,7 @@ func QueryTxsByEvents(clientCtx client.Context, events []string, page, limit int
 	}
 
 	// TODO: this may not always need to be proven
-	// https://github.com/cosmos/cosmos-sdk/issues/6807
+	// https://github.com/yenkuanlee/cosmos-sdk/issues/6807
 	resTxs, err := node.TxSearch(context.Background(), query, true, &page, &limit, orderBy)
 	if err != nil {
 		return nil, err
@@ -78,7 +78,7 @@ func QueryTx(clientCtx client.Context, hashHexStr string) (*sdk.TxResponse, erro
 	}
 
 	//TODO: this may not always need to be proven
-	// https://github.com/cosmos/cosmos-sdk/issues/6807
+	// https://github.com/yenkuanlee/cosmos-sdk/issues/6807
 	resTx, err := node.Tx(context.Background(), hash, true)
 	if err != nil {
 		return nil, err

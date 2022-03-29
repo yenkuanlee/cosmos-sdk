@@ -9,18 +9,18 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/cosmos/cosmos-sdk/x/authz/client/cli"
-	authztestutil "github.com/cosmos/cosmos-sdk/x/authz/client/testutil"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/yenkuanlee/cosmos-sdk/client/flags"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/hd"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keyring"
+	"github.com/yenkuanlee/cosmos-sdk/testutil/network"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/types/rest"
+	"github.com/yenkuanlee/cosmos-sdk/x/authz"
+	"github.com/yenkuanlee/cosmos-sdk/x/authz/client/cli"
+	authztestutil "github.com/yenkuanlee/cosmos-sdk/x/authz/client/testutil"
+	banktestutil "github.com/yenkuanlee/cosmos-sdk/x/bank/client/testutil"
+	banktypes "github.com/yenkuanlee/cosmos-sdk/x/bank/types"
+	govtypes "github.com/yenkuanlee/cosmos-sdk/x/gov/types"
 )
 
 type IntegrationTestSuite struct {

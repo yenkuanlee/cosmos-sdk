@@ -6,12 +6,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/x/distribution/client/common"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/distribution/client/common"
+	"github.com/yenkuanlee/cosmos-sdk/x/distribution/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/types/rest"
 )
 
 func registerQueryRoutes(clientCtx client.Context, r *mux.Router) {

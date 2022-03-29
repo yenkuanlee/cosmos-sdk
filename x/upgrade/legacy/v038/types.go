@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	v036gov "github.com/cosmos/cosmos-sdk/x/gov/legacy/v036"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	sdkerrors "github.com/yenkuanlee/cosmos-sdk/types/errors"
+	v036gov "github.com/yenkuanlee/cosmos-sdk/x/gov/legacy/v036"
 )
 
 const (
