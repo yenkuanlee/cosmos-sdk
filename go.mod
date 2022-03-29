@@ -1,6 +1,6 @@
 go 1.15
 
-module github.com/cosmos/cosmos-sdk
+module github.com/yenkuanlee/cosmos-sdk
 
 require (
 	github.com/99designs/keyring v1.1.6
@@ -10,6 +10,7 @@ require (
 	github.com/coinbase/rosetta-sdk-go v0.7.0
 	github.com/confio/ics23/go v0.6.6
 	github.com/cosmos/btcutil v1.0.4
+	github.com/cosmos/cosmos-sdk v0.0.0-00010101000000-000000000000
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/iavl v0.17.3
 	github.com/cosmos/ledger-cosmos-go v0.11.1
@@ -25,12 +26,8 @@ require (
 	github.com/hdevalence/ed25519consensus v0.0.0-20210204194344-59a8610d2b87
 	github.com/improbable-eng/grpc-web v0.14.1
 	github.com/jhump/protoreflect v1.9.0
-	github.com/kr/text v0.2.0 // indirect
-	github.com/lib/pq v1.10.2 // indirect
 	github.com/magiconair/properties v1.8.5
 	github.com/mattn/go-isatty v0.0.14
-	github.com/onsi/ginkgo v1.16.4 // indirect
-	github.com/onsi/gomega v1.13.0 // indirect
 	github.com/otiai10/copy v1.6.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.11.0
@@ -66,3 +63,7 @@ replace github.com/99designs/keyring => github.com/cosmos/keyring v1.1.7-0.20210
 // Fix upstream GHSA-h395-qcrw-5vmq vulnerability.
 // TODO Remove it: https://github.com/cosmos/cosmos-sdk/issues/10409
 replace github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.7.0
+
+replace github.com/tendermint/tendermint => github.com/yenkuanlee/tendermint v0.34.14-yenkuanlee
+
+replace github.com/cosmos/cosmos-sdk => ./
