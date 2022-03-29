@@ -8,22 +8,22 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	tmjson "github.com/tendermint/tendermint/libs/json"
+	tmjson "github.com/yenkuanlee/tendermint/libs/json"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
-	v040 "github.com/cosmos/cosmos-sdk/x/genutil/legacy/v040"
-	v043 "github.com/cosmos/cosmos-sdk/x/genutil/legacy/v043"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	"github.com/yenkuanlee/cosmos-sdk/client/flags"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/version"
+	v040 "github.com/yenkuanlee/cosmos-sdk/x/genutil/legacy/v040"
+	v043 "github.com/yenkuanlee/cosmos-sdk/x/genutil/legacy/v043"
+	"github.com/yenkuanlee/cosmos-sdk/x/genutil/types"
 )
 
 const flagGenesisTime = "genesis-time"
 
 // Allow applications to extend and modify the migration process.
 //
-// Ref: https://github.com/cosmos/cosmos-sdk/issues/5041
+// Ref: https://github.com/yenkuanlee/cosmos-sdk/issues/5041
 var migrationMap = types.MigrationMap{
 	"v0.42": v040.Migrate, // NOTE: v0.40, v0.41 and v0.42 are genesis compatible.
 	"v0.43": v043.Migrate,

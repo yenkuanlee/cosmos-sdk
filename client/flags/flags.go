@@ -5,9 +5,9 @@ import (
 	"strconv"
 
 	"github.com/spf13/cobra"
-	tmcli "github.com/tendermint/tendermint/libs/cli"
+	tmcli "github.com/yenkuanlee/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keyring"
 )
 
 const (

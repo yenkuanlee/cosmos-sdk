@@ -2,9 +2,9 @@ package exported
 
 import (
 	"github.com/gogo/protobuf/proto"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
+	tmbytes "github.com/yenkuanlee/tendermint/libs/bytes"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
 )
 
 // Evidence defines the contract which concrete evidence types of misbehavior

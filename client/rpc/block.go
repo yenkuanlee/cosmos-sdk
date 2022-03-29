@@ -9,10 +9,10 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/types/rest"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	"github.com/yenkuanlee/cosmos-sdk/client/flags"
+	"github.com/yenkuanlee/cosmos-sdk/codec/legacy"
+	"github.com/yenkuanlee/cosmos-sdk/types/rest"
 )
 
 // BlockCommand returns the verified block data for a given heights

@@ -10,20 +10,20 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	abci "github.com/yenkuanlee/tendermint/abci/types"
+	"github.com/yenkuanlee/tendermint/libs/log"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/yenkuanlee/cosmos-sdk/simapp"
+	storetypes "github.com/yenkuanlee/cosmos-sdk/store/types"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	sdkerrors "github.com/yenkuanlee/cosmos-sdk/types/errors"
+	"github.com/yenkuanlee/cosmos-sdk/types/module"
+	govtypes "github.com/yenkuanlee/cosmos-sdk/x/gov/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/upgrade"
+	"github.com/yenkuanlee/cosmos-sdk/x/upgrade/keeper"
+	"github.com/yenkuanlee/cosmos-sdk/x/upgrade/types"
 )
 
 type TestSuite struct {

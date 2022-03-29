@@ -6,9 +6,9 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	"github.com/yenkuanlee/cosmos-sdk/codec/types"
+	"github.com/yenkuanlee/cosmos-sdk/testutil/testdata"
 )
 
 type interfaceMarshaler struct {

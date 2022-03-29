@@ -13,14 +13,14 @@ import (
 	"sort"
 	"strings"
 
-	tmcrypto "github.com/tendermint/tendermint/crypto"
+	tmcrypto "github.com/yenkuanlee/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/bech32/legacybech32"
-	v034auth "github.com/cosmos/cosmos-sdk/x/auth/legacy/v034"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	cryptocodec "github.com/yenkuanlee/cosmos-sdk/crypto/codec"
+	cryptotypes "github.com/yenkuanlee/cosmos-sdk/crypto/types"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/types/bech32/legacybech32"
+	v034auth "github.com/yenkuanlee/cosmos-sdk/x/auth/legacy/v034"
 )
 
 const (

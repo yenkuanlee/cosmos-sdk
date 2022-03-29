@@ -9,17 +9,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/crypto/bcrypt"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/armor"
-	"github.com/tendermint/tendermint/crypto/xsalsa20symmetric"
+	tmcrypto "github.com/yenkuanlee/tendermint/crypto"
+	"github.com/yenkuanlee/tendermint/crypto/armor"
+	"github.com/yenkuanlee/tendermint/crypto/xsalsa20symmetric"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/codec/legacy"
+	"github.com/yenkuanlee/cosmos-sdk/crypto"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/hd"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keyring"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/yenkuanlee/cosmos-sdk/crypto/types"
+	"github.com/yenkuanlee/cosmos-sdk/types"
 )
 
 func TestArmorUnarmorPrivKey(t *testing.T) {

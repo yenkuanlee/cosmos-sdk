@@ -5,13 +5,13 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/suite"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/authz/keeper"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/yenkuanlee/cosmos-sdk/simapp"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/authz/keeper"
+	bank "github.com/yenkuanlee/cosmos-sdk/x/bank/types"
 )
 
 type GenesisTestSuite struct {

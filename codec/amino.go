@@ -8,9 +8,9 @@ import (
 	"io"
 
 	amino "github.com/tendermint/go-amino"
-	tmtypes "github.com/tendermint/tendermint/types"
+	tmtypes "github.com/yenkuanlee/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/yenkuanlee/cosmos-sdk/codec/types"
 )
 
 // LegacyAmino defines a wrapper for an Amino codec that properly

@@ -10,26 +10,26 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	authtest "github.com/cosmos/cosmos-sdk/x/auth/client/testutil"
-	bankcli "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	"github.com/yenkuanlee/cosmos-sdk/client/flags"
+	clienttx "github.com/yenkuanlee/cosmos-sdk/client/tx"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/hd"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keyring"
+	kmultisig "github.com/yenkuanlee/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/yenkuanlee/cosmos-sdk/crypto/types"
+	"github.com/yenkuanlee/cosmos-sdk/testutil"
+	"github.com/yenkuanlee/cosmos-sdk/testutil/network"
+	"github.com/yenkuanlee/cosmos-sdk/testutil/testdata"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	sdkerrors "github.com/yenkuanlee/cosmos-sdk/types/errors"
+	"github.com/yenkuanlee/cosmos-sdk/types/query"
+	"github.com/yenkuanlee/cosmos-sdk/types/rest"
+	"github.com/yenkuanlee/cosmos-sdk/types/tx"
+	"github.com/yenkuanlee/cosmos-sdk/types/tx/signing"
+	authclient "github.com/yenkuanlee/cosmos-sdk/x/auth/client"
+	authtest "github.com/yenkuanlee/cosmos-sdk/x/auth/client/testutil"
+	bankcli "github.com/yenkuanlee/cosmos-sdk/x/bank/client/testutil"
+	banktypes "github.com/yenkuanlee/cosmos-sdk/x/bank/types"
 )
 
 var bankMsgSendEventAction = fmt.Sprintf("message.action='%s'", sdk.MsgTypeURL(&banktypes.MsgSend{}))
@@ -239,8 +239,8 @@ func (s IntegrationTestSuite) TestGetTxEvents_GRPC() {
 				s.Require().Equal("foobar", grpcRes.Txs[0].Body.Memo)
 
 				// Make sure fields are populated.
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8680
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8681
+				// ref: https://github.com/yenkuanlee/cosmos-sdk/issues/8680
+				// ref: https://github.com/yenkuanlee/cosmos-sdk/issues/8681
 				s.Require().NotEmpty(grpcRes.TxResponses[0].Timestamp)
 				s.Require().NotEmpty(grpcRes.TxResponses[0].RawLog)
 			}
@@ -388,8 +388,8 @@ func (s IntegrationTestSuite) TestGetTx_GRPCGateway() {
 				s.Require().NotZero(result.TxResponse.Height)
 
 				// Make sure fields are populated.
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8680
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8681
+				// ref: https://github.com/yenkuanlee/cosmos-sdk/issues/8680
+				// ref: https://github.com/yenkuanlee/cosmos-sdk/issues/8681
 				s.Require().NotEmpty(result.TxResponse.Timestamp)
 				s.Require().NotEmpty(result.TxResponse.RawLog)
 			}

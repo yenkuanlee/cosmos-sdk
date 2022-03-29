@@ -11,13 +11,13 @@ import (
 	"github.com/cosmos/btcutil/base58"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/crypto"
-	tmsecp256k1 "github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/yenkuanlee/tendermint/crypto"
+	tmsecp256k1 "github.com/yenkuanlee/tendermint/crypto/secp256k1"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/yenkuanlee/cosmos-sdk/crypto/types"
 )
 
 type keyData struct {
