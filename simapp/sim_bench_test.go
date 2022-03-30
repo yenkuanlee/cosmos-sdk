@@ -5,14 +5,14 @@ import (
 	"os"
 	"testing"
 
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
 
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	simtypes "github.com/yenkuanlee/cosmos-sdk/types/simulation"
+	"github.com/yenkuanlee/cosmos-sdk/x/simulation"
 )
 
 // Profile with:
-// /usr/local/go/bin/go test -benchmem -run=^$ github.com/cosmos/cosmos-sdk/simapp -bench ^BenchmarkFullAppSimulation$ -Commit=true -cpuprofile cpu.out
+// /usr/local/go/bin/go test -benchmem -run=^$ github.com/yenkuanlee/cosmos-sdk/simapp -bench ^BenchmarkFullAppSimulation$ -Commit=true -cpuprofile cpu.out
 func BenchmarkFullAppSimulation(b *testing.B) {
 	b.ReportAllocs()
 	config, db, dir, logger, skip, err := SetupSimulation("goleveldb-app-sim", "Simulation")

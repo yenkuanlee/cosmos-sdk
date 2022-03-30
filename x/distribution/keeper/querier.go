@@ -3,13 +3,13 @@ package keeper
 import (
 	"encoding/json"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/yenkuanlee/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	sdkerrors "github.com/yenkuanlee/cosmos-sdk/types/errors"
+	"github.com/yenkuanlee/cosmos-sdk/x/distribution/types"
+	stakingtypes "github.com/yenkuanlee/cosmos-sdk/x/staking/types"
 )
 
 func NewQuerier(k Keeper, legacyQuerierCdc *codec.LegacyAmino) sdk.Querier {

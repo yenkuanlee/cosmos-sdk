@@ -5,9 +5,9 @@ package client_test
 import (
 	"fmt"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/yenkuanlee/tendermint/abci/types"
 
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	banktypes "github.com/yenkuanlee/cosmos-sdk/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestQueryABCIHeight() {

@@ -6,13 +6,13 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
-	tmcli "github.com/tendermint/tendermint/libs/cli"
+	tmcli "github.com/yenkuanlee/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/client/cli"
+	"github.com/yenkuanlee/cosmos-sdk/client/flags"
+	clitestutil "github.com/yenkuanlee/cosmos-sdk/testutil/cli"
+	"github.com/yenkuanlee/cosmos-sdk/testutil/network"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/slashing/client/cli"
 )
 
 type IntegrationTestSuite struct {

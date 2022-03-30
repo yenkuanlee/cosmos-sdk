@@ -1,16 +1,16 @@
 package multisig
 
 import (
-	types "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	types "github.com/yenkuanlee/cosmos-sdk/codec/types"
+	cryptotypes "github.com/yenkuanlee/cosmos-sdk/crypto/types"
+	sdkerrors "github.com/yenkuanlee/cosmos-sdk/types/errors"
 )
 
 // tmMultisig implements a K of N threshold multisig. It is used for
 // Amino JSON marshaling of LegacyAminoPubKey (see below for details).
 //
 // This struct is copy-pasted from:
-// https://github.com/tendermint/tendermint/blob/v0.33.9/crypto/multisig/threshold_pubkey.go
+// https://github.com/yenkuanlee/tendermint/blob/v0.33.9/crypto/multisig/threshold_pubkey.go
 //
 // This struct was used in the SDK <=0.39. In 0.40 and the switch to protobuf,
 // it has been converted to LegacyAminoPubKey. However, there's one difference:
@@ -23,7 +23,7 @@ import (
 // Amino binary marshaling, as that _might_ introduce breaking changes in the
 // keyring, where multisigs are amino-binary-encoded.
 //
-// ref: https://github.com/cosmos/cosmos-sdk/issues/8776
+// ref: https://github.com/yenkuanlee/cosmos-sdk/issues/8776
 type tmMultisig struct {
 	K       uint                 `json:"threshold"`
 	PubKeys []cryptotypes.PubKey `json:"pubkeys"`

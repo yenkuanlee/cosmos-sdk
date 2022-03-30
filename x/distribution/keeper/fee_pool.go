@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/distribution/types"
 )
 
 // DistributeFromFeePool distributes funds from the distribution module account to

@@ -5,8 +5,8 @@ package rest_test
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/yenkuanlee/cosmos-sdk/types/rest"
+	"github.com/yenkuanlee/cosmos-sdk/x/staking/types"
 )
 
 func (s *IntegrationTestSuite) TestLegacyGetValidators() {

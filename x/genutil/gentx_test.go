@@ -6,18 +6,18 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/suite"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/yenkuanlee/cosmos-sdk/simapp"
+	"github.com/yenkuanlee/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/yenkuanlee/cosmos-sdk/simapp/params"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	banktypes "github.com/yenkuanlee/cosmos-sdk/x/bank/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/genutil"
+	"github.com/yenkuanlee/cosmos-sdk/x/genutil/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/staking"
+	stakingtypes "github.com/yenkuanlee/cosmos-sdk/x/staking/types"
 )
 
 var (

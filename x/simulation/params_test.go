@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	simtypes "github.com/yenkuanlee/cosmos-sdk/types/simulation"
 )
 
 func TestParamChange(t *testing.T) {

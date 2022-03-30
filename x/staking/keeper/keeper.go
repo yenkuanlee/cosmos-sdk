@@ -3,12 +3,12 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/yenkuanlee/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	paramtypes "github.com/yenkuanlee/cosmos-sdk/x/params/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/staking/types"
 )
 
 // Implements ValidatorSet interface

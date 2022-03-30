@@ -6,16 +6,16 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/p2p"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	"github.com/yenkuanlee/tendermint/libs/bytes"
+	"github.com/yenkuanlee/tendermint/p2p"
+	ctypes "github.com/yenkuanlee/tendermint/rpc/core/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	"github.com/yenkuanlee/cosmos-sdk/client/flags"
+	cryptocodec "github.com/yenkuanlee/cosmos-sdk/crypto/codec"
+	cryptotypes "github.com/yenkuanlee/cosmos-sdk/crypto/types"
+	"github.com/yenkuanlee/cosmos-sdk/types/rest"
+	"github.com/yenkuanlee/cosmos-sdk/version"
 )
 
 // ValidatorInfo is info about the node's validator, same as Tendermint,

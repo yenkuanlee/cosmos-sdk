@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/staking/teststaking"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/evidence/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/staking"
+	"github.com/yenkuanlee/cosmos-sdk/x/staking/teststaking"
 )
 
 func (suite *KeeperTestSuite) TestHandleDoubleSign() {

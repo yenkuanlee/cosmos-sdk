@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	"github.com/yenkuanlee/cosmos-sdk/types/rest"
+	"github.com/yenkuanlee/cosmos-sdk/x/evidence/types"
 
 	"github.com/gorilla/mux"
 )

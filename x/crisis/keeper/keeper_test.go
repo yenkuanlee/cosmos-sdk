@@ -4,11 +4,11 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	abci "github.com/yenkuanlee/tendermint/abci/types"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/simapp"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
 )
 
 func TestLogger(t *testing.T) {

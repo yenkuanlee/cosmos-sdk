@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/simulation"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/types/simulation"
 )
 
 // AppModuleSimulation defines the standard functions that every module should expose

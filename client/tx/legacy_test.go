@@ -6,17 +6,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	tx2 "github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/simapp/params"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	"github.com/cosmos/cosmos-sdk/types"
-	signing2 "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"
-	"github.com/cosmos/cosmos-sdk/x/auth/tx"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	tx2 "github.com/yenkuanlee/cosmos-sdk/client/tx"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	"github.com/yenkuanlee/cosmos-sdk/simapp"
+	"github.com/yenkuanlee/cosmos-sdk/simapp/params"
+	"github.com/yenkuanlee/cosmos-sdk/testutil/testdata"
+	"github.com/yenkuanlee/cosmos-sdk/types"
+	signing2 "github.com/yenkuanlee/cosmos-sdk/types/tx/signing"
+	"github.com/yenkuanlee/cosmos-sdk/x/auth/legacy/legacytx"
+	"github.com/yenkuanlee/cosmos-sdk/x/auth/tx"
+	banktypes "github.com/yenkuanlee/cosmos-sdk/x/bank/types"
 )
 
 const (

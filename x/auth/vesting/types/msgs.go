@@ -1,8 +1,8 @@
 package types
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	sdkerrors "github.com/yenkuanlee/cosmos-sdk/types/errors"
 )
 
 // TypeMsgCreateVestingAccount defines the type value for a MsgCreateVestingAccount.

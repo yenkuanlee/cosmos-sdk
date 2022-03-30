@@ -9,9 +9,9 @@ import (
 
 	tmbtcec "github.com/tendermint/btcd/btcec"
 
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/hd"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/types"
 )
 
 var (

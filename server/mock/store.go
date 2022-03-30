@@ -3,10 +3,10 @@ package mock
 import (
 	"io"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/yenkuanlee/tm-db"
 
-	store "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	store "github.com/yenkuanlee/cosmos-sdk/store/types"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
 )
 
 var _ sdk.MultiStore = multiStore{}

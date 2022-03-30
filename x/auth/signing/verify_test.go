@@ -4,19 +4,19 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/ante"
-	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	kmultisig "github.com/yenkuanlee/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/yenkuanlee/cosmos-sdk/crypto/types"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/types/multisig"
+	"github.com/yenkuanlee/cosmos-sdk/simapp"
+	"github.com/yenkuanlee/cosmos-sdk/testutil/testdata"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/auth/ante"
+	"github.com/yenkuanlee/cosmos-sdk/x/auth/legacy/legacytx"
+	"github.com/yenkuanlee/cosmos-sdk/x/auth/signing"
+	"github.com/yenkuanlee/cosmos-sdk/x/auth/types"
 )
 
 func TestVerifySignature(t *testing.T) {

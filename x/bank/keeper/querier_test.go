@@ -3,15 +3,15 @@ package keeper_test
 import (
 	"fmt"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/yenkuanlee/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/yenkuanlee/cosmos-sdk/simapp"
+	"github.com/yenkuanlee/cosmos-sdk/testutil/testdata"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/types/query"
+	"github.com/yenkuanlee/cosmos-sdk/x/bank/keeper"
+	"github.com/yenkuanlee/cosmos-sdk/x/bank/types"
+	minttypes "github.com/yenkuanlee/cosmos-sdk/x/mint/types"
 )
 
 func (suite *IntegrationTestSuite) TestQuerier_QueryBalance() {

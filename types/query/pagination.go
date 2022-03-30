@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"math"
 
-	db "github.com/tendermint/tm-db"
+	db "github.com/yenkuanlee/tm-db"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/yenkuanlee/cosmos-sdk/store/types"
 )
 
 // DefaultLimit is the default `limit` for queries

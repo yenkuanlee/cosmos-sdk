@@ -5,12 +5,12 @@ import (
 
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
-	tmcfg "github.com/tendermint/tendermint/config"
-	tmcli "github.com/tendermint/tendermint/libs/cli"
+	tmcfg "github.com/yenkuanlee/tendermint/config"
+	tmcli "github.com/yenkuanlee/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	"github.com/yenkuanlee/cosmos-sdk/client/flags"
+	"github.com/yenkuanlee/cosmos-sdk/server"
 )
 
 // Execute executes the root command of an application. It handles creating a

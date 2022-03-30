@@ -11,20 +11,20 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/yenkuanlee/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	eviclient "github.com/cosmos/cosmos-sdk/x/evidence/client"
-	"github.com/cosmos/cosmos-sdk/x/evidence/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/evidence/client/rest"
-	"github.com/cosmos/cosmos-sdk/x/evidence/keeper"
-	"github.com/cosmos/cosmos-sdk/x/evidence/simulation"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	codectypes "github.com/yenkuanlee/cosmos-sdk/codec/types"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/types/module"
+	simtypes "github.com/yenkuanlee/cosmos-sdk/types/simulation"
+	eviclient "github.com/yenkuanlee/cosmos-sdk/x/evidence/client"
+	"github.com/yenkuanlee/cosmos-sdk/x/evidence/client/cli"
+	"github.com/yenkuanlee/cosmos-sdk/x/evidence/client/rest"
+	"github.com/yenkuanlee/cosmos-sdk/x/evidence/keeper"
+	"github.com/yenkuanlee/cosmos-sdk/x/evidence/simulation"
+	"github.com/yenkuanlee/cosmos-sdk/x/evidence/types"
 )
 
 var (

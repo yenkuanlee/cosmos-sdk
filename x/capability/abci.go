@@ -3,10 +3,10 @@ package capability
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	"github.com/cosmos/cosmos-sdk/x/capability/types"
+	"github.com/yenkuanlee/cosmos-sdk/telemetry"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/x/capability/keeper"
+	"github.com/yenkuanlee/cosmos-sdk/x/capability/types"
 )
 
 // BeginBlocker will call InitMemStore to initialize the memory stores in the case

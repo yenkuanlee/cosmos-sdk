@@ -6,19 +6,19 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/suite"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
+	dbm "github.com/yenkuanlee/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/store"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/yenkuanlee/cosmos-sdk/baseapp"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/yenkuanlee/cosmos-sdk/simapp"
+	"github.com/yenkuanlee/cosmos-sdk/store"
+	"github.com/yenkuanlee/cosmos-sdk/store/prefix"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	"github.com/yenkuanlee/cosmos-sdk/types/address"
+	"github.com/yenkuanlee/cosmos-sdk/types/query"
+	"github.com/yenkuanlee/cosmos-sdk/x/bank/types"
 )
 
 const (

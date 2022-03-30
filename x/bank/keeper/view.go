@@ -3,14 +3,14 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/yenkuanlee/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	vestexported "github.com/cosmos/cosmos-sdk/x/auth/vesting/exported"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/yenkuanlee/cosmos-sdk/codec"
+	"github.com/yenkuanlee/cosmos-sdk/store/prefix"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	sdkerrors "github.com/yenkuanlee/cosmos-sdk/types/errors"
+	vestexported "github.com/yenkuanlee/cosmos-sdk/x/auth/vesting/exported"
+	"github.com/yenkuanlee/cosmos-sdk/x/bank/types"
 )
 
 var _ ViewKeeper = (*BaseViewKeeper)(nil)
@@ -144,7 +144,7 @@ func (k BaseViewKeeper) IterateAllBalances(ctx sdk.Context, cb func(sdk.AccAddre
 		if err != nil {
 			k.Logger(ctx).With("key", iterator.Key(), "err", err).Error("failed to get address from balances store")
 			// TODO: revisit, for now, panic here to keep same behavior as in 0.42
-			// ref: https://github.com/cosmos/cosmos-sdk/issues/7409
+			// ref: https://github.com/yenkuanlee/cosmos-sdk/issues/7409
 			panic(err)
 		}
 

@@ -5,13 +5,13 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/libs/log"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	abci "github.com/yenkuanlee/tendermint/abci/types"
+	tmbytes "github.com/yenkuanlee/tendermint/libs/bytes"
+	"github.com/yenkuanlee/tendermint/libs/log"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/store/gaskv"
-	stypes "github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/yenkuanlee/cosmos-sdk/store/gaskv"
+	stypes "github.com/yenkuanlee/cosmos-sdk/store/types"
 )
 
 /*

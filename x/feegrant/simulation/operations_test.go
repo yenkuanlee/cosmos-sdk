@@ -7,15 +7,15 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	abci "github.com/yenkuanlee/tendermint/abci/types"
+	tmproto "github.com/yenkuanlee/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/feegrant"
-	"github.com/cosmos/cosmos-sdk/x/feegrant/simulation"
+	"github.com/yenkuanlee/cosmos-sdk/simapp"
+	simappparams "github.com/yenkuanlee/cosmos-sdk/simapp/params"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	simtypes "github.com/yenkuanlee/cosmos-sdk/types/simulation"
+	"github.com/yenkuanlee/cosmos-sdk/x/feegrant"
+	"github.com/yenkuanlee/cosmos-sdk/x/feegrant/simulation"
 )
 
 type SimTestSuite struct {

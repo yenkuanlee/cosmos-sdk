@@ -5,16 +5,16 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
-	tmcli "github.com/tendermint/tendermint/libs/cli"
+	tmcli "github.com/yenkuanlee/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/yenkuanlee/cosmos-sdk/client/flags"
+	clitestutil "github.com/yenkuanlee/cosmos-sdk/testutil/cli"
+	"github.com/yenkuanlee/cosmos-sdk/testutil/network"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	sdkerrors "github.com/yenkuanlee/cosmos-sdk/types/errors"
+	"github.com/yenkuanlee/cosmos-sdk/types/query"
+	"github.com/yenkuanlee/cosmos-sdk/x/bank/client/cli"
+	"github.com/yenkuanlee/cosmos-sdk/x/bank/types"
 )
 
 type IntegrationTestSuite struct {

@@ -8,9 +8,9 @@ import (
 	grpc "google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
+	"github.com/yenkuanlee/cosmos-sdk/client"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	grpctypes "github.com/yenkuanlee/cosmos-sdk/types/grpc"
 )
 
 var (

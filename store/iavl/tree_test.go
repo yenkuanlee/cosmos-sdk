@@ -3,9 +3,9 @@ package iavl
 import (
 	"testing"
 
-	"github.com/cosmos/iavl"
+	"github.com/yenkuanlee/iavl"
 	"github.com/stretchr/testify/require"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/yenkuanlee/tm-db"
 )
 
 func TestImmutableTreePanics(t *testing.T) {

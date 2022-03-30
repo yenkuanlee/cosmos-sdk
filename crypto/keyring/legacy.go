@@ -5,13 +5,13 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	dbm "github.com/tendermint/tm-db"
+	tmos "github.com/yenkuanlee/tendermint/libs/os"
+	dbm "github.com/yenkuanlee/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/crypto"
-	"github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/yenkuanlee/cosmos-sdk/crypto"
+	"github.com/yenkuanlee/cosmos-sdk/crypto/types"
+	sdk "github.com/yenkuanlee/cosmos-sdk/types"
+	sdkerrors "github.com/yenkuanlee/cosmos-sdk/types/errors"
 )
 
 // LegacyKeybase is implemented by the legacy keybase implementation.
